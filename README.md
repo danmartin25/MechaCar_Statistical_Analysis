@@ -34,10 +34,15 @@
 
 
 ## T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+For Deliverable 3, we did t tests for each lot and the total to test if they are statistically different than the population mean of 1,500 pounds per square inch. Below are pictures for the results of all 3 lots together, lot 1, lot 2, and lot 3 respectively. In summary, the results followed the same pattern as in deliverable 2. In the cases of the 3 lots together, lot 1, and lot 2, we failed to reject the null hypothesis that there was not a difference compared to the population mean of 1,500 pounds per square inch. We concluded this by each of the p-values being greater than 0.05 and each of the confidence intervals contained 1500. In the case of lot 3, the p-value was less than 0.05 and the confidence interval did not contain 1500. In this case we rejected the null hypothesis and concluded the alternative hypothesis that there was a difference between the mean of lot 3 and the target mean of 1,500 pounds per square inch.
+
+
 ![D31](https://user-images.githubusercontent.com/91795475/151675170-4642df60-415d-4fd7-9575-6440c2330faa.png)
+
 ![D3_1](https://user-images.githubusercontent.com/91795475/151675175-6ed929dd-76ef-4cfc-865d-0a12336ef467.png)
+
 ![D3_2](https://user-images.githubusercontent.com/91795475/151675177-cb640f3d-d402-4f2e-ac80-faef8a364eb5.png)
+
 ![D3_3](https://user-images.githubusercontent.com/91795475/151675179-d08b910f-aab3-4d26-b5ab-a70821fb3a45.png)
 
 
