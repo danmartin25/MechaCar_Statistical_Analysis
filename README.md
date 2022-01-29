@@ -2,9 +2,16 @@
 
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+    - From the second image, we can see that the variables of vehicle length and ground clearance provided a non-random amount of variance to the mpg values because their p values were less than 0.05. The "Intercept" coefficient also was below the 0.05 threshold and is considered non-random as well. Vehicle weight is close at 0.078, but just outside the threshold we are looking for. Spoiler angle and AWD are both well outside the threshold.
+
+
 - Is the slope of the linear model considered to be zero? Why or why not?
+    - I would consider the slope of the linear model to be positive. We can see that the coefficients of the significant variables are all positive (about 6.3 for vehicle length and about 3.5 for ground clearance). We also have a high r-squared value of .7249 signifying a non-zero correlation.
+
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-![D1](https://user-images.githubusercontent.com/91795475/151675147-7100c1f6-6861-41ee-afa6-af132093cb46.png)
+    - This linear model predicts mpg of MechaCar prototypes relatively effectively. The p-value is much lower than 0.05 showing that the prediction is very significant.
+
 ![D12](https://user-images.githubusercontent.com/91795475/151675150-f640d7b4-2c56-48e6-b192-e32f7f1d4674.png)
 ![D13](https://user-images.githubusercontent.com/91795475/151675152-1d02fe23-3ecc-40e2-819b-654f1de9cf31.png)
 
