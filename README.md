@@ -49,9 +49,16 @@ For Deliverable 3, we did t tests for each lot and the total to test if they are
 
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Deliverables 1-3 focused primarily on MPG and suspension coils. If I had to design a study comparing MechaCar against competition, the company would likely want similar statistics. Here is how I would design the study:
 
 - What metric or metrics are you going to test?
+    - We would primarily test MPG and cost of the car.
+
 - What is the null hypothesis or alternative hypothesis?
+    - The null hypothesis for MPG would be that there is no difference in MPG between MechaCar and the competition. The null hypothesis for cost of the car would be that there is no difference in cost between MechaCar and the competition. The alternative hypothesis for MPG would be that there is a non-zero difference between MechaCar and the competition for MPG. The alternative hypothesis for the cost of the car would be that there is a non-zero difference between MechaCar and the competition for cost.
+
 - What statistical test would you use to test the hypothesis? And why?
+    - There are many statistical tests we could run. The easiest would be the multiple regression test we used in deliverable 1 since all of the same conditions that we needed are met in this case. We could also run t-tests for MPG and cost. If we had multiple competitors, we could run an ANOVA test to compare across all of the different competitors.
+
 - What data is needed to run the statistical test?
+    - We would need raw data from the competitors containing MPG data and cost of the car data, as well as the same information for MechaCar. These would likely come from different data sources. If they came from seperate csv's, we would need to join the data into a dataframe or table to compare.
