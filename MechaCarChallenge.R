@@ -31,3 +31,16 @@ lot_summary <- suspension_table %>% group_by(Manufacturing_Lot)%>% summarize(Mea
 
 
 
+# Deliverable 3
+
+# T test PSI across all lots
+t.test(suspension_table$PSI,mu = 1500)
+
+# T test PSI lot 1
+t.test(subset(suspension_table, Manufacturing_Lot == "Lot1")$PSI,mu = 1500)
+
+# T test PSI lot 2
+t.test(subset(suspension_table, Manufacturing_Lot == "Lot2")$PSI,mu = 1500)
+
+# T test PSI lot 3
+t.test(subset(suspension_table, Manufacturing_Lot == "Lot3")$PSI,mu = 1500)
