@@ -15,6 +15,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 
 
+
 # Deliverable 2
 
 # Read in csv into table
@@ -28,6 +29,7 @@ total_summary <- suspension_table %>% summarize(Mean=mean(PSI), Median=median(PS
 # Lot Summary Dataframe
 lot_summary <- suspension_table %>% group_by(Manufacturing_Lot)%>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD = sd(PSI))
 #head(lot_summary)
+
 
 
 
